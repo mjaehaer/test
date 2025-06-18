@@ -1,0 +1,8 @@
+go get -u github.com/pressly/goose/cmd/goose
+
+export GOPATH=$HOME/projects 
+export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
+
+goose down
+
+goose up
